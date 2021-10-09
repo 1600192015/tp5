@@ -18,7 +18,8 @@ class Index
         $url = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&next_openid";
         $data = [];
         $res = patchurl($url, $data);
-        var_dump($res);
+        /* 参数 */
+        // var_dump($res);
         return view();
     }
 
